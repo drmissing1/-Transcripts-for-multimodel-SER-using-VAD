@@ -42,6 +42,6 @@ for threshold in tqdm(thresholds, desc="Searching for best threshold"):
         best_threshold = threshold
 
 # === 步骤 5：输出结果 ===
-print("✅ 步长搜索完成")
-print(f"🎯 最优 Fisher Score 阈值: {best_threshold:.5f}")
-print(f"📊 Fisher Score 得分: {best_fisher:.5f}")
+print("步长搜索完成")
+print(f"最优 Fisher Score 阈值: {best_threshold:.5f}")
+print(f"Fisher Score 得分: {best_fisher:.5f}")
