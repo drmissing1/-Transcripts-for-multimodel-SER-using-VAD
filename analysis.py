@@ -26,6 +26,6 @@ total_count = len(error_ids)
 # === 步骤 6：计算百分比并输出结果 ===
 percentage = (inconsistent_count / total_count) * 100 if total_count > 0 else 0
 
-print(f"🎯 总 LLM 出错样本数: {total_count}")
-print(f"📊 其中 GMM 判定为 inconsistent 的数量: {inconsistent_count}")
-print(f"📈 占比: {percentage:.2f}%")
+print(f"总 LLM 出错样本数: {total_count}")
+print(f"其中 GMM 判定为 inconsistent 的数量: {inconsistent_count}")
+print(f"占比: {percentage:.2f}%")
