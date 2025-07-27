@@ -71,8 +71,8 @@ dbi = davies_bouldin_score(X, cluster_labels)
 output_path = "D:\\Multimodel SER system\\Multimodel SER System 1\\outputs\\gmm_classification_output1.csv"
 df.to_csv(output_path, index=False)
 
-print("✅ 分析完成，结果文件已保存为:", output_path)
-print(f"🟨 贝叶斯最优阈值为: {threshold:.5f}")
-print(f"📊 Fisher Score: {fisher:.5f}")
-print(f"📊 Silhouette Coefficient: {silhouette:.5f}")
-print(f"📊 Davies-Bouldin Index: {dbi:.5f}")
+print("分析完成，结果文件已保存为:", output_path)
+print(f"贝叶斯最优阈值为: {threshold:.5f}")
+print(f"Fisher Score: {fisher:.5f}")
+print(f"Silhouette Coefficient: {silhouette:.5f}")
+print(f"Davies-Bouldin Index: {dbi:.5f}")
