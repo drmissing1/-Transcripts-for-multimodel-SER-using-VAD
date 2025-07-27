@@ -4,7 +4,7 @@ from nltk.tokenize import word_tokenize
 import os
 
 
-# ✅ 第一次运行请取消注释，下载NLTK分词模型
+# 第一次运行请取消注释，下载NLTK分词模型
 # nltk.download('punkt')
 # print(f'已加载完成')
 # ========== 设置路径 ==========
@@ -49,4 +49,4 @@ df["TEXT DOMINANCE"] = dominance_list
 output_file = os.path.join(data_path, "transcriptions_with_VAD.csv")
 df.to_csv(output_file, index=False, encoding="utf-8-sig")
 
-print(f"✅ VAD 提取完成！已保存到：\n{output_file}")
+print(f"VAD 提取完成！已保存到：\n{output_file}")
