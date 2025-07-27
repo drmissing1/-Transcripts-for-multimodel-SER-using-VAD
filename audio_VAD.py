@@ -100,4 +100,4 @@ df["AUDIO AROUSAL"] = [v[1] for v in vad_results]
 df["AUDIO DOMINANCE"] = [v[2] for v in vad_results]
 
 df.to_csv(output_path, index=False, encoding="utf-8-sig")
-print(f"\n✅ 音频处理完毕，已保存到：{output_path}")
+print(f"\n音频处理完毕，已保存到：{output_path}")
